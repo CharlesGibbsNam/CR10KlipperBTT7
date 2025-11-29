@@ -1,0 +1,30 @@
+CR10V3 Base Hardware, SKR3EZ Mobo with TMC2209 (vertical Drivercards), Running Klipper Mainsail
+
+!!NOTE HARDWARE AND SOFTWARE USAGE!!
+The below lists extra setup modules inside this install.
+
+Kamp: Klipper Adaptive Meshing and Purging: 
+Inputshaper (adxl): 
+cr10LCD: 
+SFSv1 (Smart Filament Sensor V2): 
+CR or BLTouch: 
+Exclude_object: 
+Pressure Advance:
+
+Please make sure to work through ALL lines under printer.cfg. 
+!! FAILURE TO HEAD THE ABOVE LINE COULD LEAD TO PRINTER DAMAGE, MALFUNCTION OR COMPLETE FAILURE !!
+
+Custom Hights in use for CRTouch as I am using a Creality K1MAX Heater and nozzles.
+
+TMC2209 Drivers: configured to run in Uart Mode. 
+
+Please note, these settings and files are for my printer and hardware which has been HEAVILY MODIFIED. 
+
+The files have thusly been modified to suit MY SPECIFIC HARDWARE. 
+
+If you intend to make use of these files, you do so at YOUR OWN RISK. 
+
+Make sure to have your finger on the physical on/off switch of your printer to prevent damage due to bed collision or incorrect motor directions. 
+
+DO NOT leave the printer unattended while moving or running motors for the first time, CONFIRM CORRECT BEHAVIOUR......
+
